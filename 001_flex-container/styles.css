@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+
+  margin: 0;
+
+  padding: 0;
+}
+
+body {
+  background-color: #333;
+
+  font-family: Helvetica;
+}
+
+p {
+  color: #FF6F80;
+
+  font-size: 48px;
+
+  padding: 50px;
+}
+
+.flex-container {
+  border: 5px solid #FF6F80;
+
+  display: flex;
+
+  height: auto;
+
+  margin-bottom: 30px;
+
+  padding: 20px;
+
+  width: 100%;
+}
+
+.flex-container  div {
+  border: 5px solid #208DD8;
+
+  color: #FFF;
+
+  font-size: 64px;
+
+  height: 200px;
+
+  line-height: 180px;
+
+  margin: 0 auto;
+
+  text-align: center;
+
+  width: 200px;
+}
